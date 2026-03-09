@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="limo_controller" type="move_distance.py" name="move_mission_node" output="screen">
+        
+        <param name="target_meters" value="1.0" />
+        
+    </node>
+
+    </launch>
